@@ -1,7 +1,6 @@
 import React, {useState} from "react"
 
 function ShoppingList(){
-
     const[items, setItems] = useState(["Milk", "chocolate", "strawberry"]);
     const[newItem, setNewItem] = useState("");
 
